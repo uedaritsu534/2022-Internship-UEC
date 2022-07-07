@@ -29,5 +29,5 @@ m1 = 10
 m2 = 30
 
 
-h1 = Mult(pbk, n, m1, m2)
-print('Homomorphism: ' + str(h1))
+p1, p2 = Mult(pbk, n, m1, m2)
+print('Homomorphism: ' + str(p1) + ", " + str(p2))

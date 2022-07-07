@@ -36,7 +36,7 @@ def miller_rabin_test(n):
         return True
     return False
 
-#Generates a key that is k bit long
+#Generates 2 prime numbers that are k bit long and generate key from those numbers
 def key_gen(k):
     while True:
         p = random.randint(2**(k-1), (2**k)-1)
@@ -92,7 +92,9 @@ def Dec(pvK, n, c):
 
 #Homomorphism
 def Mult(pbK, n, m1, m2,):
-    c1 = Enc(m1, n, pbK)
-    c2 = Enc(m2, n, pbK)
-    return (c1*c2)%n
+    c1 = Enc(pbK, n, m1)
+    c2 = Enc(pbK, n, m2)
+    p1 = (c1*c2)%n
+    p2 = Enc(pbK, n, m1*m2)
+    return p1, p2
 
