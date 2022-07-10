@@ -33,4 +33,31 @@
    - $c$ $mod$ $m = \Pi _{i = 0}^{n-1}b^{a_i2^i}$
  
  # Image with filter 1
+ ### Step 1:
+  - Encrypt image
+ ### Step 2:
+  - Apply encrypted filter to encrypted image
+  - Filter type: Moving average filter
+  - Effect of filter: Makes the image blur
+ ### Step 3:
+  - Decrypt image
  
+  # Image with filter 2
+ ### Step 1:
+  - Encrypt color image
+ ### Step 2:
+  - Apply encrypted filter to encrypted image
+  - Filter type: Moving average filter
+  - Effect of filter: Makes the image blur
+ ### Step 3:
+  - Decrypt image
+ 
+ # Image with filter 3
+ ### Step 1:
+  - Encrypt image
+ ### Step 2:
+  - Apply encrypted filter to encrypted image
+  - Filter type: Laplacian filter
+  - Effect of filter: Makes edge clear and others black
+ ### Step 3:
+  - Decrypt image
