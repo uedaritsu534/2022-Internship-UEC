@@ -35,6 +35,7 @@
  # Image with filter 1
  ### Step 1:
   - Encrypt image
+  - ![Original Image](/GithubImage/ImagewFilter1.png)
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
