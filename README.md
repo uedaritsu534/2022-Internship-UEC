@@ -35,30 +35,46 @@
  # Image with filter 1
  ### Step 1:
   - Encrypt image
-  - ![Original Image](/GithubImage/ImagewFilter1.png)
+  <img src="https://user-images.githubusercontent.com/108774371/178175104-514b0736-53dc-4fc3-acb3-6190b5a2e0f7.png"  width="25%" height="25%">
+  &darr; 
+  <img src="https://user-images.githubusercontent.com/108774371/178176522-e1bce687-ac6b-4cb2-83f0-72dd35077061.png"  width="25%" height="25%">
+  
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
   - Effect of filter: Makes the image blur
  ### Step 3:
   - Decrypt image
+  
+  <img src="https://user-images.githubusercontent.com/108774371/178176715-2287fb53-c972-4c3a-99f2-11e2547428da.png"  width="25%" height="25%">
  
   # Image with filter 2
  ### Step 1:
   - Encrypt color image
+   <img src="https://user-images.githubusercontent.com/108774371/178176807-5ff6288a-ca9c-427a-8195-500b7abb2ff9.png"  width="33%" height="33%">
+  &darr;
+   <img src="https://user-images.githubusercontent.com/108774371/178176892-96758bcb-26a2-4c8d-9966-54e7427e0225.png"  width="33%" height="33%">
+  
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
   - Effect of filter: Makes the image blur
  ### Step 3:
   - Decrypt image
+  <img src="https://user-images.githubusercontent.com/108774371/178176965-7803db76-d291-4dc3-ba14-8cf1cad9bc80.png"  width="33%" height="33%">
  
  # Image with filter 3
  ### Step 1:
   - Encrypt image
+   <img src="https://user-images.githubusercontent.com/108774371/178177141-58d2ed56-e44a-450c-aa8a-70b387b8d535.png"  width="25%" height="25%">
+  &darr;
+   <img src="https://user-images.githubusercontent.com/108774371/178177194-3e4a8303-8ebe-4cb3-9987-03bae90c4386.png"  width="25%" height="25%">
+  
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Laplacian filter
-  - Effect of filter: Makes edge clear and others black
+  - Effect of filter: Makes edge standout and others black
  ### Step 3:
   - Decrypt image
+   <img src="https://user-images.githubusercontent.com/108774371/178177254-8cf9d108-aada-426a-bd7b-d3a4ac14f8e8.png"  width="25%" height="25%">
+  
