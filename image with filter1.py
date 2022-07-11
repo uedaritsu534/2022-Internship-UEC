@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from RSAinternship import *
 import cv2
 
-gazo = cv2.imread( "/Users/ritsuueda/Desktop/images/7134.png", 0 )
-sample_gazo = cv2.imread("/Users/ritsuueda/Desktop/images/7134.png", 0 )
+gazo = cv2.imread( "./images/7134.png", 0 )
+sample_gazo = cv2.imread("./images/7134.png", 0 )
 pbk, pvk, n = key_gen(6)
 
 # Resize image
