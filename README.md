@@ -38,6 +38,8 @@
  - $m = 255$
  - $m_1 = 10$
  - $m_2 = 30$
+ ### Result:
+  <img src="https://user-images.githubusercontent.com/108774371/178429875-74acb5a0-b5a4-43b0-b4c4-01d29d659d00.png"  width="33%" height="33%">
 
  # Image with filter 1
  ### Step 1:
@@ -45,7 +47,8 @@
   <img src="https://user-images.githubusercontent.com/108774371/178175104-514b0736-53dc-4fc3-acb3-6190b5a2e0f7.png"  width="25%" height="25%">
   &darr; 
   <img src="https://user-images.githubusercontent.com/108774371/178427009-137b6873-fa7e-4c6f-bcd7-b1b4ebda0b61.png"  width="25%" height="25%">
-  
+   - Encrypted image will not always look same because key is generated randomly
+   - Encrypted image might look the same as the original image after encryption because 0 will not change and if 255(white) exceeds 255, it will stay white
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
@@ -92,3 +95,15 @@
   
  - Image without encryption
  <img src="https://user-images.githubusercontent.com/108774371/178423326-f5a003da-c648-419a-b9d8-7ae7ef30f992.png"  width="25%" height="25%">
+
+ # Simulation environment
+### Software
+- macOS Big Sur Version 11.6.7
+ - Python 3.10.5
+ - Visual Studio Code Version 1.68.1
+ ### Hardware
+  - Macbook Air (Retina, 2020)
+  - Processor 1.1 Ghz Quad-Core Intel Core i5
+  - Memory 8 GB 3733 MHz 
+
+
