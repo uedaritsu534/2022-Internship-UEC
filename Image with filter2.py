@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 from RSAinternship import *
 import cv2
 
-gazo = cv2.imread( "./images/2098_color.png", 3 )
+k = 8
+gazo = cv2.imread( "Python/2022-Internship-UEC/images/2098_color.png", 3 )
 gazo = cv2.cvtColor(gazo, cv2.COLOR_BGR2RGB)
-sample_gazo = cv2.imread( "./images/2098_color.png", 3 )
+sample_gazo = cv2.imread( "Python/2022-Internship-UEC/images/2098_color.png", 3 )
 sample_gazo = cv2.cvtColor(sample_gazo, cv2.COLOR_BGR2RGB)
-pbk, pvk, n = key_gen(8)
+pbk, pvk, n = key_gen(k)
 
 # Resize image
 gazo = cv2.resize(gazo, dsize = None, fx = 0.5, fy = 0.5)
@@ -42,8 +43,6 @@ print( "Encrypted image" )
 print(gazo)
 plt.figure()
 plt.imshow(gazo)
-
-
 
 gazo2 = np.zeros((height,width, c))
 gazo2 = gazo2.tolist()

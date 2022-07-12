@@ -3,9 +3,10 @@ import matplotlib.pyplot as plt
 from RSAinternship import *
 import cv2
 
-gazo = cv2.imread( "./images/7134.png", 0 )
-sample_gazo = cv2.imread("./images/7134.png", 0 )
-pbk, pvk, n = key_gen(6)
+k = 5
+gazo = cv2.imread( "Python/2022-Internship-UEC/images/7134.png", 0 )
+sample_gazo = cv2.imread("Python/2022-Internship-UEC/images/7134.png", 0 )
+pbk, pvk, n = key_gen(k)
 
 # Resize image
 gazo = cv2.resize(gazo, dsize = None, fx = 0.05, fy = 0.05)
@@ -26,9 +27,8 @@ for y in range(height):
   for x in range(width):
       gazo[y][x] = Enc(pbk, n, gazo[y][x])
 
-gazo = np.array(gazo)
-
 # Print encrypted image
+gazo = np.array(gazo)
 print( "Encrypted image" )
 print(gazo)
 plt.figure()
@@ -87,4 +87,4 @@ print("Sample image(no encryption)")
 print( sample_filter_gazo )
 plt.figure()
 plt.imshow(sample_filter_gazo, cmap="gray", vmin=0, vmax=255)
-plt.show()
+plt.show() 
