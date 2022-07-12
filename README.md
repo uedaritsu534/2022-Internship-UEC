@@ -47,8 +47,10 @@
   <img src="https://user-images.githubusercontent.com/108774371/178175104-514b0736-53dc-4fc3-acb3-6190b5a2e0f7.png"  width="25%" height="25%">
   &darr; 
   <img src="https://user-images.githubusercontent.com/108774371/178427009-137b6873-fa7e-4c6f-bcd7-b1b4ebda0b61.png"  width="25%" height="25%">
+  
    - Encrypted image will not always look same because key is generated randomly
    - Encrypted image might look the same as the original image after encryption because 0 will not change and if 255(white) exceeds 255, it will stay white
+
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
