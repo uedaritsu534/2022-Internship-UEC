@@ -1,5 +1,5 @@
 import random
-#!/usr/bin/python
+
 #Finds the greatest common denominator of x and y
 def find_gcd(x, y):
     while True:

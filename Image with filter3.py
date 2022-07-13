@@ -9,6 +9,7 @@ gazo = cv2.imread( "Python/2022-Internship-UEC/images/7134.png", 0 )
 sample_gazo = cv2.imread( "Python/2022-Internship-UEC/images/7134.png", 0 )
 pbk, pvk, n = key_gen(k)
 
+# Resize image
 gazo = cv2.resize(gazo, dsize = None, fx = 0.05, fy = 0.05)
 sample_gazo = cv2.resize(sample_gazo, dsize = None, fx = 0.05, fy = 0.05)
 height, width = gazo.shape
