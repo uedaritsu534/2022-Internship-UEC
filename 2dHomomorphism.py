@@ -6,8 +6,6 @@ arr = np.array([[1,2], [3,4]])
 x = np.array([[1], [2]])
 pbk, pvk, n = key_gen(k)
 
-print(pbk)
-
 arr_height = len(arr)
 arr_width = len(arr[0])
 x_height = len(x)
@@ -53,6 +51,7 @@ for k in range(x_width):
             prod_row.append(arr[i][j] * x[j][k])
         prod.append(prod_row)
 
+prod = np.array(prod)
 print("Product of E1 and E2(no addition here)")
 print(prod)
 print('')
@@ -80,5 +79,6 @@ for i in range(prod_height):
     dec_prod.append(dec_row)
 
 # Print final matrix
+dec_prod = np.array(dec_prod)
 print("After addition")
 print(dec_prod)
