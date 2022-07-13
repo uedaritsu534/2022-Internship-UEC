@@ -1,11 +1,11 @@
 from RSAinternship import *
 import numpy as np
 
-k = 8
+k = 6
 arr = np.array([[1,2], [3,4]])
 x = np.array([[1], [2]])
 pbk, pvk, n = key_gen(k)
-m = 1
+m = 2**4
 
 arr_height = len(arr)
 arr_width = len(arr[0])

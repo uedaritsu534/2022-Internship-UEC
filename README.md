@@ -46,10 +46,19 @@
   - Matrix and Vector are multipliable
   - key_gen(6)
   - arr = [[1, 2], [3, 4]]
-  - x = [[1], [2]]<br>
+  - $x =$ [[1], [2]]
+  - $m = 1$<br>
   <img src="https://user-images.githubusercontent.com/108774371/178664706-2587e0c4-5bcf-4e09-803b-729a320c5d20.png"  width="33%" height="33%">
+  - m could be any number and there will be no error.
 
-
+ ### Homomorphism with real numbers:
+ - key_gen(6)
+ - arr = [[1.7, 2.9], [5.8, 3.1]]
+ - $x =$ [[1.3], [2.1]]
+ - $m = 2^4$ <br>
+  <img src="https://user-images.githubusercontent.com/108774371/178686189-2bbb6fa1-3689-4329-886a-54f3f6d40e00.png"  width="33%" height="33%">
+ - It can't be decrypted perfectly because encryption and decryption has to be in whole numbers.
+ - With greater $m$, there will be less error.
 
  # Image with filter 1
  ### Step 1:
