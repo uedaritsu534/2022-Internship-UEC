@@ -34,10 +34,10 @@
  
 # RSA test
 ### Precondition:
- - $k = 5$ (key made with two prime numbers that is k bit long)
- - $m = 255$
- - $m_1 = 10$
- - $m_2 = 30$
+ - $k = 5$ (Key made with two prime numbers that is k bit long)
+ - $m = 255$ (Number to encrypt)
+ - $m_1 = 10$ (First number for homomorphism)
+ - $m_2 = 30$ (Second number for homomorphism)
  ### Result:
   <img src="https://user-images.githubusercontent.com/108774371/178429875-74acb5a0-b5a4-43b0-b4c4-01d29d659d00.png"  width="33%" height="33%">
 
@@ -47,9 +47,9 @@
   <img src="https://user-images.githubusercontent.com/108774371/178175104-514b0736-53dc-4fc3-acb3-6190b5a2e0f7.png"  width="25%" height="25%">
   &darr; 
   <img src="https://user-images.githubusercontent.com/108774371/178427009-137b6873-fa7e-4c6f-bcd7-b1b4ebda0b61.png"  width="25%" height="25%">
-  
-   - Encrypted image will not always look same because key is generated randomly
-   - Encrypted image might look the same as the original image after encryption because 0 will not change and if 255(white) exceeds 255, it will stay white
+
+   - Encrypted image will not always look the same because key is generated randomly.
+   - Encrypted image might look the same as the original image after encryption because 0(black) will not change and if 255(white) exceeds 255, it will stay white.
 
  ### Step 2:
   - Apply encrypted filter to encrypted image
@@ -70,6 +70,8 @@
   &darr;
    <img src="https://user-images.githubusercontent.com/108774371/178176892-96758bcb-26a2-4c8d-9966-54e7427e0225.png"  width="33%" height="33%">
 
+   - Image is mostly white because all RBG values exceed 255. 
+
  ### Step 2:
   - Apply encrypted filter to encrypted image
   - Filter type: Moving average filter
@@ -77,7 +79,9 @@
  ### Step 3:
   - Decrypt image
   <img src="https://user-images.githubusercontent.com/108774371/178176965-7803db76-d291-4dc3-ba14-8cf1cad9bc80.png"  width="33%" height="33%">
+
   - Image without encryption
+
    <img src="https://user-images.githubusercontent.com/108774371/178423137-1b513749-a273-45fe-8ad4-7ce64426364f.png"  width="33%" height="33%">
 
  # Image with filter 3
@@ -86,6 +90,7 @@
    <img src="https://user-images.githubusercontent.com/108774371/178177141-58d2ed56-e44a-450c-aa8a-70b387b8d535.png"  width="25%" height="25%">
   &darr;
    <img src="https://user-images.githubusercontent.com/108774371/178177194-3e4a8303-8ebe-4cb3-9987-03bae90c4386.png"  width="25%" height="25%">
+   - Encrypted image looks the same as the original image because 0(black) does not change after encryption and 255(white) is exceeding 255 which keeps it white.
   
  ### Step 2:
   - Apply encrypted filter to encrypted image
