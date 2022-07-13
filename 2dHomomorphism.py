@@ -1,10 +1,11 @@
 from RSAinternship import *
 import numpy as np
 
-k = 6
+k = 8
 arr = np.array([[1,2], [3,4]])
 x = np.array([[1], [2]])
 pbk, pvk, n = key_gen(k)
+m = 1
 
 arr_height = len(arr)
 arr_width = len(arr[0])
@@ -27,7 +28,7 @@ print('')
 # Encrypt matrix 1
 for i in range(arr_height):
     for j in range(arr_width):
-        arr[i][j] = Enc(pbk, n, arr[i][j])
+        arr[i][j] = Enc(pbk, n, int(arr[i][j]*(m)))
 
 print("Encrypted Matrix1(E1)")
 print(arr)
@@ -36,7 +37,7 @@ print('')
 # Encrypt matrix 2
 for i in range(x_height):
     for j in range(x_width):
-        x[i][j] = Enc(pbk, n, x[i][j])
+        x[i][j] = Enc(pbk, n, int(x[i][j]*(m)))
 
 print("Encrypted Matrix2(E2)")
 print(x)
@@ -74,7 +75,7 @@ for i in range(prod_height):
     dec_row = []
     num = 0
     for j in range(prod_width):
-        num += prod[i][j]
+        num += (prod[i][j]/(m**2))
     dec_row.append(num)
     dec_prod.append(dec_row)
 
