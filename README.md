@@ -41,6 +41,16 @@
  ### Result:
   <img src="https://user-images.githubusercontent.com/108774371/178429875-74acb5a0-b5a4-43b0-b4c4-01d29d659d00.png"  width="33%" height="33%">
 
+# 2D Homomorphism
+ ### Precondition:
+  - Matrix and Vector are multipliable
+  - key_gen(6)
+  - arr = [[1, 2], [3, 4], [5, 6]]
+  - x = [[1], [2]]<br>
+  <img src="https://user-images.githubusercontent.com/108774371/178662423-f57ec143-f7d0-4cd7-8e78-619095b5dcfc.png"  width="33%" height="33%">
+
+
+
  # Image with filter 1
  ### Step 1:
   - Encrypt image
