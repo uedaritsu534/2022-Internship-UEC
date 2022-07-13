@@ -45,7 +45,7 @@
  ### Precondition:
   - Matrix and Vector are multipliable
   - key_gen(6)
-  - arr = [[1, 2], [3, 4], [5, 6]]
+  - arr = [[1, 2], [3, 4]]
   - x = [[1], [2]]<br>
   <img src="https://user-images.githubusercontent.com/108774371/178662423-f57ec143-f7d0-4cd7-8e78-619095b5dcfc.png"  width="33%" height="33%">
 
