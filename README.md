@@ -70,7 +70,7 @@
   &darr;
    <img src="https://user-images.githubusercontent.com/108774371/178176892-96758bcb-26a2-4c8d-9966-54e7427e0225.png"  width="33%" height="33%">
 
-   - Image is mostly white because all RBG values exceed 255. 
+   - Image is mostly white because most RBG values exceed 255. 
 
  ### Step 2:
   - Apply encrypted filter to encrypted image
