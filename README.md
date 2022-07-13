@@ -15,7 +15,7 @@
 ### Homomorphism:
 - Enc($m_1m_2$) = Enc($m_1$)Enc($m_2$) mod $n$
 ### Miller Rabin Test:
- - Tests if number is likely to be prime
+ - Tests if number is likely to be prime or not
  - Choose a positive integer $n$
  - Calculate $k$ and $m$ such that: $n - 1 = 2^k m$
  - Randomly choose a number $a$ such that: $2 \leq a \leq n-1$
