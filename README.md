@@ -59,7 +59,7 @@
  - $m = 2^4$ <br>
   <img src="https://user-images.githubusercontent.com/108774371/178686189-2bbb6fa1-3689-4329-886a-54f3f6d40e00.png"  width="33%" height="33%">
 
- - It can't be decrypted perfectly because encryption and decryption has to be in whole numbers.
+ - There will be an error because encryption and decryption has to be in whole numbers.
  - With greater $m$, there will be less error.
 
  # Image with filter 1
@@ -91,7 +91,7 @@
   &darr;
    <img src="https://user-images.githubusercontent.com/108774371/178176892-96758bcb-26a2-4c8d-9966-54e7427e0225.png"  width="33%" height="33%">
 
-   - Image is mostly white because most RBG values exceed 255. 
+   - Image is mostly white because most RBG values are exceeding 255. 
 
  ### Step 2:
   - Apply encrypted filter to encrypted image
