@@ -111,6 +111,7 @@
    <img src="https://user-images.githubusercontent.com/108774371/178177141-58d2ed56-e44a-450c-aa8a-70b387b8d535.png"  width="25%" height="25%">
   &darr;
    <img src="https://user-images.githubusercontent.com/108774371/178177194-3e4a8303-8ebe-4cb3-9987-03bae90c4386.png"  width="25%" height="25%">
+
    - Encrypted image looks the same as the original image because 0(black) does not change after encryption and 255(white) is exceeding 255 which keeps it white.
   
  ### Step 2:
