@@ -8,7 +8,7 @@
 - Find integer $d$ such that:  $ed$ mod $\Phi N = 1$
 - Private key &rarr; $d$
 ### Encryption:
-- Choose integer $m$ such that: $0 \leq m \leq n$
+- Choose integer $m$ such that: $0 \leq m < n$
 - Enc($m$)$ = m^e$ mod $n = c$
 ### Decryption:
 - Dec($c$) $= c^d$ mod $n = m$
@@ -25,7 +25,7 @@
    - If $b$ mod $n = -1$: $n$ is likely to be prime
    - $b = b^2$ mod $n$
 - If not, $n$ is not prime
-### mpow:
+### mpow (left to right binary exponentiation):
 - Drastically reduces the number of operations to performs modular exponentiation
 - $b^e$ can be written as: 
   - $b^{(\Sigma ^{n-1}_{i = 0}a_i2^i)}  = \Pi _{i = 0}^{n-1}b^{a_i2^i}$
@@ -49,7 +49,7 @@
   - $x =$ [[1], [2]]
   - $m = 1$<br>
   <img src="https://user-images.githubusercontent.com/108774371/178664706-2587e0c4-5bcf-4e09-803b-729a320c5d20.png"  width="33%" height="33%">
-  
+
   - m could be any number and there will be no error.
 
  ### Homomorphism with real numbers:
