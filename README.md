@@ -25,7 +25,7 @@
    - If $b$ mod $n = -1$: $n$ is likely to be prime
    - $b = b^2$ mod $n$
 - If not, $n$ is not prime
-### mpow (left to right binary exponentiation):
+### mpow (right to left binary exponentiation):
 - Drastically reduces the number of operations to performs modular exponentiation
 - $b^e$ can be written as: 
   - $b^{(\Sigma ^{n-1}_{i = 0}a_i2^i)}  = \Pi _{i = 0}^{n-1}b^{a_i2^i}$
